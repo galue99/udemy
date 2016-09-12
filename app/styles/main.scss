@@ -10,8 +10,26 @@ body{
   background: url('../images/texture.png');
 }
 
+.header-section{
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizelegibility;
+  text-align: center;
+}
+
+p{
+  text-align: justify;
+}
+
 h1{
   font-family: 'graduate', cursive;
+}
+
+h2 {
+  font-family: 'pacifico', cursive;
+}
+.wrap{
+  padding-top: 50px;
+  padding-bottom: 50px;
 }
 
 /* Title and enroll*/
@@ -22,4 +40,15 @@ h1{
   -webkit-font-smoothing: antialiased;
   text-rendering: optimizelegibility;
   text-align: center;
+}
+
+#what-learn{
+  text-align: center;
+}
+
+
+/* Course Target */
+#course-target{
+  background-color: #BF3E11;
+  color: white;
 }
